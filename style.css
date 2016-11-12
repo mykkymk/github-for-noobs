@@ -1,16 +1,29 @@
-body{
-    background: #fff;
+*{
+    margin: 0;
+    padding: 0;
 }
-nav{
+body{
+    background: lavender;
+}
+header{
     width:100%;
-    height: 70px;
-    background: purple
+    height: 100px;
+    background: purple;
+    top: 0;
 }
 nav ul li{
-    displa: inline-block;
+    display: inline-block;
+    padding: 10px;
+    float: right;
 }
 nav ul li a{
     color: #fff;
-    font-size: white;
+    font-size: 20px;
+    font-family: lobster;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: #fff;
     font-family: lobster;
 }
